@@ -52,3 +52,17 @@ body {
     border: 1px solid #ccc;
     border-radius: 4px;
   }
+
+  #send-button {
+    padding: 8px 16px;
+    margin-left: 10px;
+    background-color: #2b3744;
+    border: none;
+    border-radius: 2px;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  #send-button:hover {
+    background-color: #8fbae9;
+  }
