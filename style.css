@@ -16,4 +16,21 @@ body {
     align-items: center;
     height: 150vh;
   }
+  .chat-window {
+    width: 500px;
+    background-color: #b33636;
+    border-radius: 8px;
+    overflow: hidden;
+  }
+  
+  .chat-area {
+    height: 450px;
+    overflow-y: scroll;
+    padding: 30px;
+  }
+  
+  .chat-messages {
+    display: flex;
+    flex-direction: column;
+  }
   
