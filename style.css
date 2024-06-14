@@ -33,4 +33,22 @@ body {
     display: flex;
     flex-direction: column;
   }
+  .message {
+    margin-bottom: 5px;
+    background-color: #cf5555;
+    padding: 10px;
+  }
   
+  .user-input {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    background-color: #926262;
+  }
+  
+  #message-input {
+    flex-grow: 1;
+    padding: 7px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
